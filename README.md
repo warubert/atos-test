@@ -8,7 +8,7 @@ Tambem usei a api https://api.freecurrencyapi.com/v1/lates para a tarefa de cota
 ## Running Backend
 
 Para simular o backend foi utilizado o json-server, para executa-lo rodar: `npm run backend`
-O servidor vai ficar disponvel na porta 3000
+O servidor vai ficar disponivel na porta 3000
 
 ## Development server
 
