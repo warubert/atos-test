@@ -25,7 +25,7 @@ describe('EditPopoutComponent', () => {
           },
         },
       ],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA], // Add NO_ERRORS_SCHEMA to suppress the error
+      schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
     }).compileComponents();
   });
 
