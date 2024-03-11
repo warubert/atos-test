@@ -2,7 +2,7 @@
 
 O projeto foi executado com o [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 Utilizei a versão 16.2.0 do Angular pois meu cli já estava atualizado, espero que não tenha problema embora para o teste tenha sido pedido até a versão 14, acredito que não há grandes diferenças para este projeto.
-Utilizei a biblioteca primeng (https://www.primefaces.org/primeng-v14-lts) para componentes de UI e o primeflex (https://primeflex.org/) para a responsividade.
+Utilizei a biblioteca primeng (https://www.primefaces.org/primeng-v16-lts) para componentes de UI e o primeflex (https://primeflex.org/) para a responsividade.
 Tambem usei a api https://api.freecurrencyapi.com/v1/lates para a tarefa de cotação do Dolar. No código existe uma key hardcodada para utilização da api.
 
 ## Running Backend
