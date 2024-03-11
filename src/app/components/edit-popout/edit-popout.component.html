@@ -1,0 +1,40 @@
+<div class="grid newField">
+  <div class="col-12">
+    <div class="flex flex-column gap-2">
+      <label class="block font-bold mb-2">Descrição</label>
+      <input pInputText aria-describedby="desc-help" [(ngModel)]="desc" />
+      <small id="desc-help"
+        >Digite uma descrição para a nova entrada/saida.</small
+      >
+    </div>
+  </div>
+
+  <div class="col-12 sm:col-4">
+    <label class="block font-bold mb-2" for="currency-us">Valor</label>
+    <p-inputNumber
+      [(ngModel)]="value"
+      inputId="currency-br"
+      mode="currency"
+      currency="BRL"
+      locale="pt-BR"
+    >
+    </p-inputNumber>
+  </div>
+  <div class="col-12 sm:col-4">
+    <label class="block font-bold mb-2">Operação</label>
+    <p-dropdown
+      [options]="['Entrada', 'Saída']"
+      [(ngModel)]="type"
+      placeholder="Selecione Operação"
+    ></p-dropdown>
+  </div>
+
+  <div class="col-12 sm:col-4">
+    <label class="block font-bold mb-2" style="color: white">.</label>
+    <p-button
+      label="Salvar"
+      (onClick)="save()"
+      [disabled]="checkSave()"
+    ></p-button>
+  </div>
+</div>
